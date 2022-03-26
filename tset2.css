@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>InnerHome.</title>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="css/styles.css" type="text/css" rel="Stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+
+<body>
+    <div id="header-hero-container">
+        <header>
+            <div class="flex container">
+                <a id="logo" href="#">Innerhome.</a>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+
+                    <ul id="nav-menu">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="https://www.buyrentkenya.com/"target="_blank">Properties</a></li>
+                        <li><a href="#">Agents</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li id="close-flyout"><span class="fas fa-times"></span></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="hero">
+            <div class="fade"></div>
+            <div class="hero-text">
+                <h1>InnerHome Kenya</h1>
+                <p>InnerHome is aimed at helping users from all 
+backgrounds find their perfectly suited home.
+This will help those who are left homeless from 
+expensive rents or those moving from one area to 
+another or even rural-urban migration.</p>
+            </div>
+        </section>
+    </div>
+
+
+    <section id="Properties">
+<div class="container">
+<h2>Properties</h2>
+<div id="Properties-slider" class="slick">
+<div>
+<img src="https://i.roamcdn.net/prop/brk/listing-thumb-376w/a3fddcd82369b8ad297c05edeb297ab9/-/prod-
+property-core-backend-media-brk/3902716/7028288f-cd61-4997-b901-048d927d699a.jpeg" alt="Property 1"/>
+<div class="Property-details">
+<p class="sale">for sale</p>
+<p class="price">KSH 85,078,000</p>
+<p><span class="bedroom">4 bedrooms</span></p>
+<p><span class="bathroom">2 bathroom</span></p>
+<p><span class="swimming pool">swimming pool</span></p>
+<p><location>
+karen
+</location></p>
+</div>
+</div>
+</div>
+</div>
+<img src="https://i.roamcdn.net/prop/brk/listing-thumb-376w/333af572e1a80ade574e1a893cbf51b9
+/-/prod-property-core-backend-media-brk/3903251/a446a76e-c215-43d3-b7cc-c7dc62f178cf.jpg" alt="Property 2"/>
+<div class="Property-details">
+<p class="sale">rent</p>
+<p class="price">KSH 78,000</p>
+<p><span class="bedroom">2 bedrooms</span></p>
+<p><span class="bathroom">1 bathroom</span></p>
+<p><span class="playground">playground</span></p>
+<p><location>
+karen
+</location></p>
+</div>
+</section>
+
+    <section id="Agents">
+<div class="container">
+<h2>Agents</h2>
+<p class="large-paragraph">Agents help clients find homes</p>
+
+<div class="flex">
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnZXI4e7kRZCBeY3Feu
+_C7SIGyrHHINpBNeg&usqp=CAU" alt="Agent1"/>
+<h3>Simon Ngatha</h3>
+<p>Agent</p>
+</div>
+
+<div class="card">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRahBk8oYWeFrcmdSD24_u
+j73teiB_E3_osRA&usqp=CAU" alt="Agent2"/>
+<h3>Jefferson Ivy</h3>
+<p>Agent</p>
+</div>
+
+</div>
+</div>
+</secion>
+
+   
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+
+            <div class="flex">
+                <div id="form-container">
+                    <h3>Contact Form</h3>
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" />
+
+                        <label for="email">Email</label>
+                        <input type="text" id="email" />
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" />
+
+                        <label for="message">Message</label>
+                        <textarea id="message">Write your message here..</textarea>
+
+                        <button class="rounded">Send Message</button>
+                    </form>
+                </div>
+
+                <div id="address-container">
+                    <label>Location</label>
+                    <address>
+Racecourse OFF NgongRoad, Nairobi
+
+                    </address>
+
+                    <label>Phone</label>
+                    <a href="#">254-799-466-707</a>
+
+                    <label>Email Address</label>
+                    <a href="#">innerhome@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="flex container">
+            <div class="footer-about">
+                <h5>About InnerHome</h5>
+                <p>InnerHome is aimed at helping users from all 
+backgrounds find their perfectly suited home.
+This will help those who are left homeless from 
+expensive rents or those moving from one area to 
+another or even rural-urban migration </p>
+            </div>
+
+            <div class="footer-quick-links">
+                <h5>Quick Links</h5>
+                <ul>
+                   <a href="#">home</a>
+                <a href="#">services</a>
+                <a href="#">featured</a>
+                <a href="#">agents</a>
+                <a href="#">contact</a>
+                </ul>
+            </div>
+
+           <div>
+
+                <h5 class="follow-us">Follow Us</h5>
+                <ul>
+                   <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <small>
+           Copyright & copy;2022 All rights reserved @InnerHome
+ 
+        </small>
+    </footer>
+
+    <script>
+        $(function () {
+            let headerElem = $('header');
+            let logo = $('#logo');
+            let navMenu = $('#nav-menu');
+            let navToggle = $('#nav-toggle');
+
+           $('#properties-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                prevArrow: '<a href="#" class="slick-arrow slick-prev">previous</a>',
+                nextArrow: '<a href="#" class="slick-arrow slick-next">next</a>',
+                responsive: [
+                    {
+                        breakpoint: 1100,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 767,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 530,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    }
+                ]
+           });
+
+           $('#testimonials-slider').slick({
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                prevArrow: '<a href="#" class="slick-arrow slick-prev"><</a>',
+                nextArrow: '<a href="#" class="slick-arrow slick-next">></a>'
+           });
+
+           navToggle.on('click', () => {
+               navMenu.css('right', '0');
+           });
+
+           $('#close-flyout').on('click', () => {
+                navMenu.css('right', '-100%');
+           });
+
+           $(document).on('click', (e) => {
+               let target = $(e.target);
+               if (!(target.closest('#nav-toggle').length > 0 || target.closest('#nav-menu').length > 0)) {
+                   navMenu.css('right', '-100%');
+               }
+           });
+
+           $(document).scroll(() => {
+               let scrollTop = $(document).scrollTop();
+
+               if (scrollTop > 0) {
+                   navMenu.addClass('is-sticky');
+                   logo.css('color', '#000');
+                   headerElem.css('background', '#fff');
+                   navToggle.css('border-color', '#000');
+                   navToggle.find('.strip').css('background-color', '#000');
+               } else {
+                   navMenu.removeClass('is-sticky');
+                   logo.css('color', '#fff');
+                   headerElem.css('background', 'transparent');
+                   navToggle.css('bordre-color', '#fff');
+                   navToggle.find('.strip').css('background-color', '#fff');
+               }
+
+               headerElem.css(scrollTop >= 200 ? {'padding': '0.5rem', 'box-shadow': '0 -4px 10px 1px #999'} : {'padding': '1rem 0', 'box-shadow': 'none' });
+           });
+
+           $(document).trigger('scroll');
+        });
+    </script>
+</body>
+</html>
